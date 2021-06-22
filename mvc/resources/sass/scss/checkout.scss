@@ -1,0 +1,159 @@
+.flexcontainer-checkout-nav {
+    list-style: none;
+    display: flex;
+
+    li {
+        padding: 0 3px;
+    }
+
+    .checkout-nav-done {
+        
+        a {
+            color: $color-blue;
+            font-weight: 700;
+        }
+    }
+    .checkout-nav-done:hover {
+        
+        a {
+            color: $color-blue;
+            font-weight: 700;
+            text-decoration: underline;
+        }
+    }
+
+    .checkout-nav-done-summary {
+        color: $color-blue;
+        font-weight: 700;
+    }
+
+    
+}
+
+label span.required {
+    color: #9D0505;
+}
+
+
+
+.btn-choose {
+    border-radius: 3px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+
+    button {
+        background-color: white;
+        border: none;
+        color: $color-blue;
+        text-transform: uppercase;
+        font-size: 1rem;
+        padding: 15px;
+        font-weight: 700;
+        margin: 0;
+    }
+}
+
+.btn-continue {
+    background-color: $color-blue;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    margin-top: 40px;
+    transition: 0.2s;
+
+   button {
+        background-color: $color-blue;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        padding: 15px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+}
+
+
+
+.checkout-finalise-actions {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 40px;
+}
+
+.checkout-finalise-actions a.link-continue {
+    text-decoration: underline;
+    margin-top: 25px;
+}
+
+.btn-place-order {
+    background-color: $color-add-cart;
+    font-weight: 700;
+    border-radius: 3px;
+    transition: 0.2s;
+
+    a {
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+        margin: 0;
+        text-decoration: none;
+    }
+}
+
+
+@media (min-width: 700px) {
+
+    .flexbox-creditcard {
+        display: flex;
+        justify-content: space-between;
+
+        .form-group {
+            flex-basis:45%;
+        }
+    }
+}
+
+@media (min-width: 1366px) {
+
+    .checkout-form {
+        width: 60%;
+       
+    }
+
+    .btn-continue-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+
+        .btn-continue {
+            width:30%;
+        }
+    }
+
+    .checkout-finalise-actions {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .checkout-finalise-actions a.link-continue {
+        margin-top: 0px;
+    }
+
+
+    .btn-place-order-container {
+        flex-basis: 40%;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .btn-place-order {
+        
+        width:100%;
+    }
+}
+

@@ -1,0 +1,62 @@
+.frontend-form {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.frontend-form-signup form {
+    text-align: left;
+}
+
+.form-input {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #625858;
+}
+
+.form-input::placeholder {
+    color: #625858;
+}
+
+.btn-form {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: none;
+    // transition: 0.2s;
+}
+
+.text-danger {
+    color:#C10000;
+}
+
+
+
+a.create-account-link {
+    font-weight: 700;
+}
+
+a.create-account-link:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 700px) {
+    .frontend-form {
+        width: 70%;
+    }
+    
+    
+}
+
+
+@media (min-width: 1366px) {
+    .frontend-form {
+        width: 25%;
+    }
+
+}

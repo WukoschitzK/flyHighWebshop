@@ -1,0 +1,42 @@
+.btn-account-save {
+
+        button {
+            background-color: white;
+            border-radius: 3px;
+            border: 1px solid black;
+            // border: none;    
+            color: $color-blue;
+            text-transform: uppercase;
+            font-size: 1rem;
+            padding: 15px;
+            font-weight: 700;
+            margin: 0;
+            width:100%
+        }
+    
+}
+
+.hr-order {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.account-form {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 800px) {
+    .order-table-container {
+        display: flex;
+        justify-content: space-between;
+    }
+} 
+
+@media (min-width: 1366px) {
+    .account-form {
+        width: 60%;
+        margin-bottom: 70px;
+    }
+    
+}

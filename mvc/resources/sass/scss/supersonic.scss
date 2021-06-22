@@ -1,0 +1,224 @@
+.btn-transform {
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 3px;
+    margin-top: 40px;
+    transition: 0.2s;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    background-color: $color-blue;
+    color: white;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+}
+
+button.btn-add-cart-supersonic {
+    background-color: $color-add-cart;
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 3px;
+    margin-top: 40px;
+    transition: 0.2s;
+    border:none;
+
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    width:100%;
+}
+
+.h3-supersonic-config {
+    margin-bottom: 40px;
+}
+
+.btn-transform:hover {
+    background-color: $color-blue-hover;
+}
+
+.img-supersonic {
+    height: auto;
+}
+
+.product-price {
+        font-size: 1.5rem;
+        line-height: 2.8rem;
+        text-align: right;
+}
+
+.bike-configuration-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+}
+
+.bike-configuration-select {
+    margin-bottom: 30px;
+    
+
+    label {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+
+        div {
+            text-align: left;
+        }
+    }
+}
+
+.bike-configuration-input {
+    display: none;
+}
+.supersonic_config_img {
+    width: 180px;
+    margin-bottom: 20px;
+    transform: scale(0.8);
+}
+
+label.selected_config {
+    // wird bold wenn selected
+    font-weight: 700;
+    font-size: 1.1rem;
+    
+    .selected_config_img {
+        // wird vergrößert wenn selected
+        transform: scale(1);
+        transition: 0.8s;
+        padding-bottom: 20px;
+        box-shadow: 0 4px 2px -2px #E4E8EF;
+        
+    }
+}
+
+@media (min-width: 550px) {
+    .bike-configuration-form {
+        width:85%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .bike-configuration-select {
+
+        label {
+            width:70%;
+        }
+    }
+
+
+    .supersonic_config_img {
+        width: 200px;
+        margin-bottom: 20px;
+        transform: scale(0.9);
+    }
+    
+    label.selected_config {
+
+        .selected_config_img {
+            // wird vergrößert wenn selected
+            transform: scale(1.2);
+        }
+    }
+}
+
+
+@media (min-width: 880px) {
+    .bike-configuration-form {
+        width:90%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .bike-configuration-select {
+        padding: 30px;
+
+        label {
+            width:70%;
+        }
+    }
+
+    .h3-supersonic-config {
+        margin-bottom: 60px;
+    }
+
+
+    .supersonic_config_img {
+        margin-right: 40px;
+        margin-bottom: 20px;
+        transform: scale(0.9);
+    }
+    
+    label.selected_config {
+
+        .selected_config_img {
+            // wird vergrößert wenn selected
+            transform: scale(1.2);
+        }
+    }
+
+    .flexcontainer-bike-config {
+        display: flex;
+        flex-wrap:wrap;
+    }
+}
+
+@media (min-width: 1150px) {
+
+    .btn-transform {
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+
+
+    .flexcontainer-bike-config {
+        display: flex;
+        flex-wrap:wrap;
+
+        .bike-configuration-select {
+            flex-basis: 20%;
+        }
+
+        .bike-configuration-select:first-child {
+            margin-bottom: 50px;
+
+        }
+    }
+
+}
+
+
+@media (min-width: 1366px) {
+
+    .flexcontainer-supersonic {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .flexcontainer-supersonic-item-img {
+            width: 55%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .flexcontainer-supersonic-item-text {
+            width:35%;
+
+            .product-price {
+                text-align: right;
+            }
+        }
+    }
+
+    .h3-supersonic-config {
+        margin-bottom: 90px;
+    }
+}
+
+

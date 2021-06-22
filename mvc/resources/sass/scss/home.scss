@@ -1,0 +1,231 @@
+.headertext-home-web {
+    display: none;
+}
+
+.img-objectfit {
+    object-fit: cover;
+    height: 300px;
+}
+
+.home-text-big {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+@media (min-width: 450px) {
+    .home-text-bold {
+        p {
+            width: 70%;
+        }
+    }
+}
+
+
+@media (min-width: 700px) {
+    .img-objectfit {
+        object-fit: cover;
+        height: 400px;
+    }
+
+    .flex-container-reverse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 70%;
+        }
+        
+    }
+
+    .flex-sell-bike.flex-container-reverse {
+        img {
+            max-width: 50%;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+        }
+    }
+
+    .home-text-bold {
+        p {
+            width: 60%;
+        }
+    }
+    
+}
+
+@media (min-width: 1366px) {
+
+    .home-text-bold {
+        p.text-bold {
+            width: 100%;
+            line-height: 3.2rem;
+            font-size: 2.3rem;
+        }
+    }
+
+   
+    .home-text-bold {
+        p {
+            width: 90%;
+        }
+    }   
+
+    .home-text-bold {
+        p.home-text-big {
+            font-size: 2.5rem;
+            line-height: 2.5rem;
+            width: 100%;
+        }
+    }
+
+    .headertext-home-web {
+        display: block;
+
+        p.text-bold {
+            font-size: 7rem;
+            line-height: 7rem;
+        }
+    }
+
+    
+
+
+
+    .flexcontainer-header-home {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            max-width: 70%;
+        }
+        div {
+            max-width: 20%;
+            margin-left: 5%
+        }
+    }
+
+    .h1-home {
+        line-height: 4.5rem;
+        font-size: 4.5rem;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+
+    p.h1-home-text {
+        line-height: 3rem;
+        font-size: 3rem;
+        margin: 0;
+        margin-top: 20px;
+        text-transform: uppercase;
+        width: 85%;
+    }
+
+    .flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            width: 60%;
+        }
+
+        div {
+            width: 30%;
+        }
+    }
+
+    .flex-container-reverse {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+
+        img {
+            width: 35%;
+        }
+
+        div {
+            width: 35%;
+        }
+    }
+
+   
+
+    .flex-sell-bike.flex-container-reverse {
+        justify-content: space-around;
+        img {
+            width: 30%;
+            margin: 0;
+        }
+
+        div {
+            width: 40%;
+        }
+
+    }
+
+    .flex-container div .btn-blue, .flex-container-reverse div .btn-blue {
+        width: 85%;
+    }
+
+    .flex-container-reverse.flex-sell-bike div .btn-blue {
+        width: 300px;
+    }
+
+    .img-objectfit {
+        object-fit: cover;
+        height: 500px;
+    }
+
+}
+
+
+@media (min-width: 1650px) {
+
+
+    p.h1-home-text {
+        line-height: 3.5rem;
+        font-size: 3.5rem;
+        margin: 0;
+        margin-top: 20px;
+        text-transform: uppercase;
+        width: 85%;
+    }
+    
+    .h1-home {
+        line-height: 5.5rem;
+        font-size: 5.5rem;
+        // text-transform: uppercase;
+        margin-bottom: 40px; 
+    }
+
+    p.h1-home-text {
+        line-height: 3rem;
+        font-size: 3rem;
+        width: 85%;
+    }
+
+    .headertext-home-web {
+        p.text-bold {
+            line-height: 3.5rem;
+            font-size: 2.5rem;
+        }
+    }
+
+    .home-text-bold {
+        p.text-bold {
+            line-height: 3.5rem;
+            font-size: 2.5rem;
+        }
+    }
+}
+
+@media (min-width: 2000px) {
+    .flex-container, .flex-container-reverse {
+
+        div.home-text-bold {
+            width: 22%;
+        }
+    }
+}

@@ -1,0 +1,210 @@
+.form-group label {
+    font-weight: 700;
+}
+
+.backendform-h1 {
+    font-size: 2.5rem;
+}
+
+.backendform-id {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-family: $font;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.form-control-noedit {
+    background-color: #F4F5F7;
+    border: 0.5px solid;
+}
+
+.form-control-file {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.backendform_img_checkbox {
+    display: flex;
+    align-items: center;
+
+    input {
+        margin-right: 30px;
+    }
+}
+
+.backendform_img {
+    width:50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.btn-save { 
+    border-radius: 3px;
+    background-color: $color-save;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+
+    button {
+        text-transform: uppercase;
+        font-weight: 700;
+        border: none;
+        background-color: $color-save;
+        font-size: 1.2rem;
+        transition: 0.2s;
+        color: white;
+    }
+}
+
+.btn-cancel { 
+    border-radius: 3px;
+    background-color: $color-cancel;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+
+    a {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.2rem;
+
+    }
+}
+
+.cancel-link {
+    color: $color-cancel;
+    font-weight: 700;
+}
+
+.cancel-link:hover {
+    color: $color-cancel-hover;
+}
+
+.backendform-actions {
+    margin-top: 40px;
+}
+
+.btn-save:hover {
+    background-color: $color-save-hover;
+
+    button {
+        background-color: $color-save-hover;
+    }
+}
+
+
+
+.btn-cancel:hover {
+    background-color: $color-cancel-hover;
+}
+
+.flexcontainer-delete-y-n {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+
+    div.flexcontainer-delete-yes {
+        // border: 2px solid $color-save;
+        padding:15px;
+        border-radius: 3px;
+        a {
+            color: $color-save;
+            font-weight: 700;
+         }
+        
+    }
+
+    div.flexcontainer-delete-no {
+        // border: 2px solid $color-cancel;
+        padding:15px;
+        border-radius: 3px;
+        a {
+            color: $color-cancel;
+            font-weight: 700;
+         }
+        
+    }
+
+
+    div.flexcontainer-delete-yes a:hover {
+        text-decoration: underline;
+    }
+    div.flexcontainer-delete-no a:hover {
+        text-decoration: underline;
+    }
+}
+
+
+@media (min-width: 700px) {
+    .backendform-actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:100%;
+    }
+    .btn-save {
+        width: 35%;
+    }
+
+    .btn-cancel {
+        width: 30%;
+    }
+
+    .backendform_img {
+        width:35%;
+    }
+
+
+    // Orders:
+
+    .form-group-select {
+        display: flex;
+        flex-direction: column;
+    
+        .form-control-select {
+            width: 30%;
+        }
+    }
+
+
+    .flexcontainer-delete-y-n {
+        width: 30%;
+    }
+
+    
+}
+
+@media (min-width: 1100px) {
+    .backendform-actions {
+        width:50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-save {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1366px) {
+    .backendform-actions {
+        width:30%;
+    }
+    .btn-save {
+        width: 55%;
+    }
+
+    .flexcontainer-delete-y-n {
+        width: 15%;
+    }
+}

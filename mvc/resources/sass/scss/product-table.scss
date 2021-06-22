@@ -1,0 +1,135 @@
+.product-table-flexbox {
+
+    .product-table-img {
+        width:70%;
+    }
+
+    .product-table-name {
+        font-weight: 700; 
+        font-size: 1.3rem;
+        margin-top:10px;
+        margin-bottom:15px;
+    }
+
+    .product-table-quantity-subtotal {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: right;
+
+         div.product-table-quantity {
+            text-align: right;
+            width: 150px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.product-table-hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.product-table-total {
+    text-align: right;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.product-table-btn-checkout {
+    background-color: $color-add-cart;
+}
+
+// CART
+
+.cart-action {
+    width: 25px;
+}
+
+.cart-input-quantity {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align:right;
+}
+
+.cart-action-btn {
+    // width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cart-action-link {
+    text-decoration: none;
+}
+
+.cart-action-add {
+    fill: $color-save;
+}
+
+.cart-action-remove {
+    fill: $color-cancel;
+}
+
+.cart-action-trash {
+    fill: #707070;
+}
+
+.btn-cart-save {
+    font-weight: 700;
+    border: 1px solid #707070;
+    background-color: transparent;
+    padding: 15px;
+    color: $color-blue;
+    text-transform: uppercase;
+    font-size:1rem;
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+
+    .product-table-flexbox {
+        display: flex;
+        justify-content: space-between;
+    
+        .product-table-img {
+            width:50%;
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .product-table-btn-checkout-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+    }
+    .product-table-btn-checkout {
+        width: 400px;
+        text-align: right;
+        
+    }
+
+    .product-table-quantity-subtotal {
+        
+       div.product-table-subtotal {
+           width: 250px;
+       }
+   }
+}
+
+@media (min-width: 1366px) {
+    .product-table-flexbox {
+    
+    
+        .product-table-img {
+            width:30%;
+        }
+    } 
+    
+}

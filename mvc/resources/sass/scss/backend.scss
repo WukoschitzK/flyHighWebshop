@@ -1,0 +1,50 @@
+.dashboard-card {
+    width: 80%;
+    margin-bottom: 70px;
+    // border: 1px solid red;
+
+}
+
+.dashboard-card table tr th {
+    text-align: left;
+}
+
+.dashboard-card table tr td {
+    min-width: 250px;
+}
+
+
+a {
+    text-decoration: none;
+    .dashboard-icon {
+        width:20px;
+    }
+}
+
+.dashboard-icon-edit {
+    fill: #324D7C;
+}
+
+.dashboard-icon-trash {
+    fill: #7E5151;
+}
+
+.confirm-delete {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dashboard-btn-add {
+    
+    margin-top: 40px;
+
+    a {
+        border: 1px solid #324D7C;;
+        border-radius: 3px;
+        padding: 12px;
+    
+        color: #324D7C;
+        font-weight: 700;
+    }
+}
+
